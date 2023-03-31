@@ -1,4 +1,5 @@
 import React from "react";
+import IMG from './../../../images/card1.jpeg'
 
 function Carousel() {
     return(
@@ -7,7 +8,7 @@ function Carousel() {
                 <div className="bg-grays my-20">
                     <div className="flex justify-between items-center mx-40">
                         <div className="">
-                            <h2 className="text-4xl font-extrabold text-slate-600">Hai Nama Saya Ariq</h2>
+                            <h2 className="text-4xl font-extrabold text-slate-600">Mobile UI/UX compatition</h2>
                             <div className="comment mt-2">
                                 <p>saya dari keluarga lorem ipsum dolor amet dengan ini</p>
                                 <p>Mengumumkan keduduka saya sebagai raja dunia</p>
@@ -16,7 +17,8 @@ function Carousel() {
                             </div>
                         </div>
                         <div className="my-3 mr-10">
-                            <div className="bg-slate-400 h-60 w-52"></div>
+                            <img src={IMG} className="w-60 h-72" alt="" />
+                            {/* <div className="bg-slate-400 h-60 w-52"></div> */}
                         </div>
                     </div>
                 </div>

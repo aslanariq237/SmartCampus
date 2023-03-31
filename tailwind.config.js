@@ -11,7 +11,9 @@ module.exports = {
         'blues':'#3da9fc',
         'bg1':'#d8eefe',
         'head-font' : '#094067',
-        'comm-font' : '#5f6c7b'
+        'comm-font' : '#5f6c7b',
+        'card-bg' : '#094067',
+        'paragraph' : '#d8eefe'
       }
     },
   },

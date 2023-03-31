@@ -9,11 +9,11 @@ function Event() {
                 <div className="head mx-10">
                     <div className="flex justify-between my-2">
                         <div className="">
-                        <p className="font-semibold text-xl">Event</p>
+                        <p className="font-semibold text-2xl mt-3 text-comm-font">Event</p>
                         </div>
-                        <div className="">
+                        <div className="mt-3">
                             <Link to={'/event'}>
-                                <span><a>See More</a></span>
+                                <span><a className="text-red-400">See More<strong>&#62;</strong></a></span>
                             </Link>
                         </div>
                     </div>

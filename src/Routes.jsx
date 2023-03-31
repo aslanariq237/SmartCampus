@@ -14,7 +14,7 @@ const Rute = () => {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path='' element={<Navigate replace to='home'/>}/>
+                <Route path='/' element={<Navigate replace to='Home'/>}/>
                 <Route path='home' element={<Home/>}/>
                 <Route path="event" element={<Event/>}/>
             </Routes>

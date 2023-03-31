@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from './../Template/navbar'
 import Carousel from './carousel/index'
 import Event from './event/index'
+import Anounc from "./Anonunc/index";
 
 const home = () => {
     return(
@@ -18,7 +19,7 @@ const home = () => {
                 <Event />
             </div>
             <div className="">
-                
+                <Anounc />
             </div>
         </div>
     )

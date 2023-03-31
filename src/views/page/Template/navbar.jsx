@@ -12,12 +12,10 @@ const Navbar = () => {
                   <Link to={'/home'}>
                     <li><a href="">Home</a></li>
                   </Link>
-                  <Link to={'/home'}>
-                    <li><a href="">About</a></li>
+                  <Link to={'/event'}>
+                    <li><a href="">Event</a></li>
                   </Link>
-                  <Link to={'/home'}>
-                    <li><a href="">Contact</a></li>
-                  </Link>
+                  <li><a href="">Contact</a></li>
                 </ul>
             </div>
           <div className="bg-slate-400 rounded-full h-9 w-9"></div>
