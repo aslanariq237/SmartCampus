@@ -58,9 +58,9 @@ function Card(params){
                 <div className="flex justify-center bg-red-100 mt-2">
                     <h1 className="font-semibold text-slate-400 text-2xl">Event</h1>
                 </div>
-                <div className="list flex flex-wrap-reverse justify-between mt-7 mx-10 col-span-3">
+                <div className="list flex flex-wrap mt-7 mx-7">
                     {list.map((li, index) =>(
-                        <div className="card bg-slate-100 rounded-md p-3 w-80 h-56 mb-4 hover:bg-slate-200" key={index}>
+                        <div className="card bg-slate-100 ml-2 rounded-md p-3 w-80 h-56 mb-4 hover:bg-slate-200" key={index}>
                             <div className="card-head flex">
                                 <div className="w-24 h-24 bg-blue-300"></div>
                                 <p className="font-semibold mt-6 ml-2 text-md">{(li.judul)}</p>

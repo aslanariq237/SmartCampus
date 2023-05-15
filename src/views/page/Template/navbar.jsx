@@ -5,20 +5,24 @@ const Navbar = () => {
   return(
     <React.Fragment>
       <div className="nav">
-        <div className="flex flex-row justify-between mx-5 mt-2">
-          <h1 className="text-xl font-semibold">BEvent</h1>
-            <div className="">
-                <ul className="flex space-x-5">
-                  <Link to={'/home'}>
-                    <li><a href="">Home</a></li>
-                  </Link>
-                  <Link to={'/event'}>
-                    <li><a href="">Event</a></li>
-                  </Link>
-                  <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-          <div className="bg-slate-400 rounded-full h-9 w-9"></div>
+        <div className="flex justify-between mx-5 mt-2 items-center">
+          <div className="flex space-x-14">
+            <ul className="flex space-x-14 items-center">
+            <Link to={'/home'}>
+                <li className=""><a href="" className=""><h1 className="text-xl font-semibold">M3</h1></a></li>
+              </Link>
+              <Link to={'/home'}>
+                <li className=""><a href="" className="">Home</a></li>
+              </Link>
+              <Link to={'/event'}>
+                <li className=""><a href="">Event</a></li>
+              </Link >
+              <Link to={'/'}>
+                <li className=""><a href="">Contact</a></li>
+              </Link>
+            </ul>
+          </div>
+          <div className="bg-card-bg rounded-full h-9 w-9"></div>
         </div>
       </div>
     </React.Fragment>

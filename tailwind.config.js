@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        'poppins': ['Poppins', 'sans-serif'],
+        'roboto' : ['Roboto', 'sans-serif'],
+      },
       lineClamp:['hover'],
       colors:{
         'grays':'#fffffe',
@@ -13,11 +17,15 @@ module.exports = {
         'head-font' : '#094067',
         'comm-font' : '#5f6c7b',
         'card-bg' : '#094067',
-        'paragraph' : '#d8eefe'
+        'paragraph' : '#d8eefe',
+        'bg2' : '#283044',
+        'bg3' : '#EBF5EE',
+        'bg4' : '#78A1BB'
       }
     },
   },
   plugins: [
     require('@tailwindcss/line-clamp'),
+    require('@tailwindcss/container-queries'),
   ],
 }
