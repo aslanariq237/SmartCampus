@@ -79,7 +79,7 @@ const Category = () => {
                             />
                         </svg>
                         </div>
-                        <p>Can Make a Baby</p>
+                        <p>Open Minded</p>
                     </div>
                 </div>
             </div>
