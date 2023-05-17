@@ -9,6 +9,7 @@ import {
 
 import Home from './views/page/dashboard/index'
 import Event from "./views/page/event/card/index";
+import Login from "./views/page/Auth/login";
 
 const Rute = () => {
     return(
@@ -17,6 +18,7 @@ const Rute = () => {
                 <Route path='/' element={<Navigate replace to='Home'/>}/>
                 <Route path='home' element={<Home/>}/>
                 <Route path="event" element={<Event/>}/>
+                <Route path="login" element={<Login />}/>
             </Routes>
         </BrowserRouter>
     )
