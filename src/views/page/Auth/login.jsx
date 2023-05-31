@@ -59,7 +59,7 @@ const Login = () => {
         </div>
         <div className="text-center text-lg font-mono mt-5 font-bold">
           YOUR ACCOUNT FOR EVERYTHING
-          <p>IN AZ ZAHRA</p>
+          <p>Smart Campus</p>
         </div>
       </div>
       <div className="max-w-md w-full mx-auto  bg-white p-8">
@@ -86,7 +86,7 @@ const Login = () => {
           {errors.password?.type === 'required' && <p class="mt-1 text-red-500 text-xs italic">Password wajib diisi !</p>}
           {errors.password?.type === 'minLength' && <p class="mt-1 text-red-500 text-xs italic">Password Minimal 6 Karakter</p>}
           <div className="text-center text-gray-600 text-sm">
-            By Logging in, you agree to Azzahra's{" "}
+            By Logging in, you agree to Binus Square's{" "}
             <a href="/" className="underline">
               Privacy Policy
             </a>{" "}
