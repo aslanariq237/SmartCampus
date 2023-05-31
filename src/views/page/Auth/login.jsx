@@ -51,7 +51,7 @@ const Login = () => {
 
   }
   return (
-    <div className="flex justify-center">
+    <div className="">
       <div className="max-w-md w-full mx-auto">
         <div className="flex justify-center items-center mt-20">
           <div className="flex w-20 h-20 bg-bg4 items-center">

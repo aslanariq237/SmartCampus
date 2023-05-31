@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Dropdown from 'react-bootstrap/Dropdown'
 
 const Navbar = () => {
   // let nav = useNavigate;
@@ -31,12 +32,23 @@ const Navbar = () => {
             {
               localStorage.getItem('user_access_token')
                 ?
-                <div className="too">
-                  <p>{localStorage.getItem('email')}</p>
-                  <form onSubmit={logout}>
-                    <button>Logout</button>
-                  </form>
-                </div>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="success" id="dropdown-basic">
+                      <p>{localStorage.getItem('email')}</p>
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu className="bg-bg4">
+                      <Dropdown.Item href="/admin-dashboard">
+                        <p>Settings</p>
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-2">
+                        <form onSubmit={logout}>
+                          <button>
+                            <p>Logout</p>
+                          </button>
+                        </form>
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
                 :
                 <div className="button space-x-3">
                   <Link to={'/login'}>

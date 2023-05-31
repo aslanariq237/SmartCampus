@@ -8,8 +8,9 @@ import {
 } from "react-router-dom";
 
 import Home from './views/page/dashboard/index'
-import Event from "./views/page/event/card/index";
+import Event from './views/page/event/detailEvent'
 import Login from "./views/page/Auth/login";
+import Admin from './views/page/adminDashboard'
 
 const Rute = () => {
     return(
@@ -19,6 +20,7 @@ const Rute = () => {
                 <Route path='home' element={<Home/>}/>
                 <Route path="event" element={<Event/>}/>
                 <Route path="login" element={<Login />}/>
+                <Route path="admin-dashboard" element={<Admin />}/>
             </Routes>
         </BrowserRouter>
     )
